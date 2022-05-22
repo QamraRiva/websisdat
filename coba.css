@@ -1,0 +1,221 @@
+/* Navbar */
+
+body {
+    background-color: #051622;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(2, 9, 13, 0.6);
+    color: #1BA098 !important;
+}
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 16px;
+}
+
+.navbar .container {
+    color: #1BA098 !important;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 250px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+
+/* Info Panel */
+
+.info-panel {
+    position: relative;
+    z-index: 2;
+    margin-top: -55px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: #DEB992;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px 20px 0;
+}
+
+.info-panel h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.info-panel p {
+    font-size: 14px;
+    color: #051650;
+    margin-top: -5px;
+    font-weight: 400;
+}
+
+
+/* About */
+
+.about {
+    padding-top: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about h3 {
+    color: #1BA098;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.about h3 span {
+    font-weight: 500;
+}
+
+.about p {
+    font-size: 18px;
+    color: #ACACAC;
+    font-weight: 250;
+    margin: 25px 0;
+}
+
+
+/* Testimoni */
+
+.testimoni {
+    margin-top: 100px;
+}
+
+.testimoni h5 {
+    color: #ACACAC;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.testimoni figure img {
+    width: 90px;
+    height: 90px;
+    margin-top: 25px;
+}
+
+.testimoni figure h6 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    font-synthesis: normal;
+}
+
+.testimoni figure p {
+    font-size: 12px;
+    color: #ACACAC;
+    margin-top: -5px;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 100px;
+}
+
+.footer p {
+    color: #ACACAC;
+    font-size: 18px;
+}
+
+
+/* Utility */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+    .navbar-brand,
+    .nav-link {
+        color: #1BA098 !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.);
+    }
+    .navbar-brand {
+        font-family: Viga;
+        font-size: 24px;
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 60%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron {
+        height: 640px;
+        margin-top: -70px;
+    }
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+    .about {
+        text-align: left;
+    }
+    .about h3 {
+        font-size: 52px;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    .testimoni h5 {
+        font-size: 32px;
+    }
+}
