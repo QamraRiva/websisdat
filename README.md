@@ -10,9 +10,9 @@ Nama Anggota :
 <li>Raffanisa Kamila Zikri (140810210067) </li>
 </ol>
 
-Tema Projek : 
-Tujuan :
-Fungsi website :
-
-Bahasa yang digunakan :
-Framework yang digunakan :
+<br>Tema Projek : 
+<br>Tujuan :
+<br>Fungsi website :
+<br>
+<br>Bahasa yang digunakan :
+<br>Framework yang digunakan :
